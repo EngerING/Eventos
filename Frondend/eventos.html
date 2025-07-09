@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="assets/css/eventos.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Gestión de Eventos</h2>
+        <button onclick="cerrarSesion()">Cerrar Sesión</button>
+
+        <div class="event-form">
+            <input type="text" id="nombreCategoria" placeholder="Nombre de Categoría">
+            <button onclick="crearCategoria()">Crear Categoría</button>
+        </div>
+
+        <div class="event-list">
+            <h3>Categorías registradas</h3>
+            <ul id="listaCategorias"></ul>
+        </div>
+    </div>
+
+    <script src="assets/js/eventos.js"></script>
+</body>
+</html>
